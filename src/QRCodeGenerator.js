@@ -55,6 +55,8 @@ const QRCodeGenerator = () => {
                 </div>
             </div>
         </div>
+
+        {/* https://qrcrib.com/ */}
     </>
   )
 }
