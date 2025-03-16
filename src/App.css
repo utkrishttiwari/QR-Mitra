@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+
+.qrwrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.qrInner {
+  box-shadow: 0 0 4px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  padding: 30px;
+  width: 400px;
+  height: 400px;
+}
+
+.qrwrap h2 {
+  color: yellowgreen;
+  margin: 0 0 20px;
+  text-align: center;
+}
+
+.qrwrap input {
+  border: 1px solid yellowgreen;
+  height: 40px;
+  line-height: 40px;
+  width: 100%;
+  font-size: 16px;
+  border-radius: 6px;
+  padding: 10px 12px;
+  outline-color: green;
+  outline-width: 1px;
+}
+
+.qrwrap input.error {
+  border-color: red;
+  outline-color: red;
+}
+
+p.errorMsg {
+  font-size: 15px;
+  margin: 5px 0 0;
+  color: red;
+}
+
+.qrcode {
+  margin: 30px 0 0;
+  text-align: center;
+}
+
+.downloadBtn {
+  border: 1px solid yellowgreen;
+  background-color: yellowgreen;
+  padding: 10px 30px;
+  font-size: 16px;
+  border-radius: 5px;
+  margin: 20px 0 0;
+  color: #fff;
+}
