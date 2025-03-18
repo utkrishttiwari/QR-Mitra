@@ -5,7 +5,7 @@
 .header {
   color: #fff;
   text-align: center;
-  padding: 80px 0 40px;
+  padding: 50px 0 20px;
 }
 
 .header h1 {
@@ -32,8 +32,8 @@
   box-shadow: 0 0 2px rgba(0,0,0,0.1);
   border-radius: 10px;
   padding: 20px;
-  width: 420px;
-  height: 420px;
+  width: 450px;
+  height: 450px;
 }
 
 .qrwrap h2 {
@@ -59,6 +59,8 @@
   line-height: normal;
   color: grey;
   cursor: pointer;
+  width: 90px;
+  font-size: 10px;
 }
 
 .qrwrap input[type="file"]::-webkit-file-upload-button {
@@ -77,8 +79,22 @@ p.errorMsg {
 }
 
 .qrcode {
-  margin: 30px 0 0;
+  margin: 20px auto 0;
   text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  width: 250px;
+  padding: 0 0 15px;
+}
+
+.qrcode h4 {
+  padding: 8px 0;
+  margin: 0 0 15px;
+  border-bottom: 1px solid #ddd;
+  color: #222;
+  font-size: 14px;
+  background-color: #ddd;
+  border-radius: 10px 10px 0 0;
 }
 
 .downloadBtn {
@@ -104,8 +120,8 @@ p.errorMsg {
 }
 
 .colorBtn {
-  width: 30px;
-  height: 30px;
+  width: 25px;
+  height: 25px;
   border-radius: 4px;
   margin: 0 4px;
   border: none;
@@ -113,6 +129,11 @@ p.errorMsg {
   transition: transform 0.2s;
 }
 
-.colorBtn:hover {
+.colorBtn:not([disabled]):hover {
   transform: scale(1.1);
+}
+
+.colorBtn[disabled] {
+  opacity: 0.5;
+  cursor: not-allowed;
 }

@@ -70,18 +70,19 @@ const QRCodeGenerator = () => {
                 <div className="colorPalette">
                     {colorPalette.map((color) => (
                         <button
-                        key={color}
-                        className="colorBtn"
-                        style={{
-                            backgroundColor: color,
-                        }}
-                        onClick={() => setQrColor(color)}
-                        ></button>
+                            key={color}
+                            className="colorBtn"
+                            style={{
+                                backgroundColor: color,
+                            }}
+                            onClick={() => setQrColor(color)}
+                            disabled={`${!isValidInput(text) ? 'disabled' : ''}`}></button>
                     ))}
                 </div>
 
                 <div ref={qrRef}> 
                     <div className='qrcode'>
+                        <h4>Preview</h4>
                         <QRCodeCanvas size={150} fgColor={qrColor}
                             value={isValidInput(text) ? text : "Welcome to QR Code"}
                             imageSettings={{
