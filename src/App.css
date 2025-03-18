@@ -2,6 +2,25 @@
   box-sizing: border-box;
 }
 
+.header {
+  color: #fff;
+  text-align: center;
+  padding: 80px 0 40px;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 24px;
+  color: #00ADB5;
+}
+
+.header p {
+  margin: 5px 0 0;
+  font-size: 14px;
+  opacity: 0.8;
+  color: #000;
+}
+
 .qrwrap {
   display: flex;
   align-items: center;
@@ -10,29 +29,40 @@
 }
 
 .qrInner {
-  box-shadow: 0 0 4px rgba(0,0,0,0.1);
+  box-shadow: 0 0 2px rgba(0,0,0,0.1);
   border-radius: 10px;
-  padding: 30px;
-  width: 400px;
-  height: 400px;
+  padding: 20px;
+  width: 420px;
+  height: 420px;
 }
 
 .qrwrap h2 {
-  color: yellowgreen;
+  color: #00ADB5;
   margin: 0 0 20px;
   text-align: center;
 }
 
 .qrwrap input {
-  border: 1px solid yellowgreen;
-  height: 40px;
-  line-height: 40px;
+  border: 1px solid #00ADB5;
+  height: 35px;
+  line-height: 35px;
   width: 100%;
-  font-size: 16px;
+  font-size: 15px;
   border-radius: 6px;
   padding: 10px 12px;
-  outline-color: green;
+  outline-color: #00ADB5;
   outline-width: 1px;
+  margin: 0 0 10px;
+}
+
+.qrwrap input[type="file"] {
+  line-height: normal;
+  color: grey;
+  cursor: pointer;
+}
+
+.qrwrap input[type="file"]::-webkit-file-upload-button {
+  display: none;
 }
 
 .qrwrap input.error {
@@ -42,7 +72,7 @@
 
 p.errorMsg {
   font-size: 15px;
-  margin: 5px 0 0;
+  margin: -10px 0 15px;
   color: red;
 }
 
@@ -52,11 +82,37 @@ p.errorMsg {
 }
 
 .downloadBtn {
-  border: 1px solid yellowgreen;
-  background-color: yellowgreen;
-  padding: 10px 30px;
-  font-size: 16px;
+  border: 1px solid #00ADB5;
+  background-color: #00ADB5;
+  padding: 8px 20px;
+  font-size: 14px;
   border-radius: 5px;
-  margin: 20px 0 0;
+  margin: 20px auto 0;
   color: #fff;
+  display: block;
+  cursor: pointer;
+}
+
+.downloadBtn[disabled] {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.colorPalette {
+  text-align: center;
+  margin: 10px 0 0;
+}
+
+.colorBtn {
+  width: 30px;
+  height: 30px;
+  border-radius: 4px;
+  margin: 0 4px;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.colorBtn:hover {
+  transform: scale(1.1);
 }
