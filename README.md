@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+# QR Mitra 🚀
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Your home for QR creation & customization!**
 
-## Available Scripts
+QR Mitra is a powerful web app that allows users to generate QR codes for text or URLs instantly. Users can scan, reveal, and download their QR codes effortlessly. Additionally, customization features like adding logos, updating QR code colors, and downloading in PNG format make it a versatile tool for QR code creation.
 
-In the project directory, you can run:
+## 🚀 Features
 
-### `npm start`
+- 📄 **Generate QR Codes** – Create QR codes from text or URLs.
+- 🔍 **Scan & Reveal** – Easily scan and reveal the content behind the QR code.
+- 🎨 **Customization** – Add logos and update QR code colors.
+- 📥 **Download as PNG** – Save QR codes in high-quality PNG format.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 📌 Future Enhancements
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+This is a learning project, and I plan to expand it with more customization options and additional download formats.
 
-### `npm test`
+## 💻 Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/your-username/qr-mitra.git
+   ```
+2. Navigate to the project directory:
+   ```sh
+   cd qr-mitra
+   ```
+3. Install dependencies:
+   ```sh
+   npm install
+   ```
+4. Start the development server:
+   ```sh
+   npm start
+   ```
 
-### `npm run build`
+## 🛠 Tech Stack
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **React.js** for building the web app
+- **Plain HTML & CSS** for styling
+- **QR Code Generator Library** for QR code creation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📢 Contributing
 
-### `npm run eject`
+Contributions are welcome! Feel free to fork this repository, submit pull requests, or report issues.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 📧 Contact
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Created by **Utkrisht Tiwari**  
+🌐 Portfolio: [ut-portfolio.vercel.app](https://ut-portfolio.vercel.app/)  
+💼 LinkedIn: [linkedin.com/in/utkrisht-tiwari](https://in.linkedin.com/in/utkrisht-tiwari)  
+🐙 GitHub: [github.com/utkrishttiwari](https://github.com/utkrishttiwari/)
