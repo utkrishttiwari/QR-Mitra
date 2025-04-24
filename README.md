@@ -48,6 +48,6 @@ Contributions are welcome! Feel free to fork this repository, submit pull reques
 ## 📧 Contact
 
 Created by **Utkrisht Tiwari**  
-🌐 Portfolio: [ut-portfolio.vercel.app](https://ut-portfolio.vercel.app/)  
+🌐 Portfolio: [ut-portfolio.vercel.app](https://utkrisht-tiwari.vercel.app/)  
 💼 LinkedIn: [linkedin.com/in/utkrisht-tiwari](https://in.linkedin.com/in/utkrisht-tiwari)  
 🐙 GitHub: [github.com/utkrishttiwari](https://github.com/utkrishttiwari/)
